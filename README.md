@@ -12,6 +12,8 @@ This project is a prototype of a line-following medicine delivery robot built us
 
 _(Replace `#` with YouTube or Google Drive links)_
 
+---
+
 ## Project Overview
 
 During COVID-19, hospital staff were stretched thin. This robot was designed to:
@@ -19,6 +21,8 @@ During COVID-19, hospital staff were stretched thin. This robot was designed to:
 - Reduce the burden of minor tasks on nurses
 - Navigate autonomously using colour-based line detection
 - Avoid obstacles with ultrasonic sensors
+
+---
 
 ## System Components
 
@@ -32,6 +36,8 @@ During COVID-19, hospital staff were stretched thin. This robot was designed to:
 | **RGB LED & Buzzer** | User feedback and status |
 | **Force Sensor** | Detects object placement |
 
+---
+
 ## Program Flow
 
 1. Detect button press (room selection)
@@ -40,13 +46,23 @@ During COVID-19, hospital staff were stretched thin. This robot was designed to:
 4. Slow/stop when obstacles are detected
 5. Beep and light feedback on departure/arrival
 
-## Project Files
+---
 
-- `/Firmware/Firmware.ino` – Arduino code
-- `/resources/` – System diagram, PCB layout, production plan
-- `/testing/` – Diagnostic journal, risk assessment, evaluation
-- `/media/` – Demo videos (or links)
-- `/docs/` – Final report and design brief
+## Project Structure
+
+```bash
+Hospital-Medicine-Delivery-Robot/
+│
+├── Firmware/                       # Arduino code
+│   └── Firmware.ino/               # Main Arduino code for IDE (open this file)
+├── Images/                         # Images of the robot
+├── Resources/                      # System diagram, PCB layout, production plan
+├── TCS230_Frequency/               # Calibration code for Colour Sensor (TCS230)
+├── Testing/                        # Diagnostic journal, risk assessment
+└── Report/                         # Final Report, evaluation
+```
+
+---
 
 ## Testing & Evaluation
 
@@ -61,6 +77,8 @@ Improvements discussed include:
 - Additional sensors for destination detection
 - NFC or colour-coded stop zones
 - Improved object holder design
+
+---
 
 ## Lessons Learned
 
