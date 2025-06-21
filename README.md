@@ -1,6 +1,8 @@
 # Hospital Medicine Delivery Robot 🤖💊
 
-This project is a working prototype of a line-following medicine delivery robot built using an Arduino Uno, RGB sensors, DC motors, and ultrasonic sensors. It was created as a high school systems engineering project to address hospital staff shortages and improve efficiency in medicine delivery.
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+
+This project is a prototype of a line-following medicine delivery robot built using an Arduino Uno, RGB sensors, DC motors, and ultrasonic sensors. It was created as a high school systems engineering project to address hospital staff shortages and improve efficiency in medicine delivery.
 
 ## Demo Videos
 
