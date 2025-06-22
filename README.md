@@ -56,10 +56,11 @@ Hospital-Medicine-Delivery-Robot/
 ├── Firmware/                       # Arduino code
 │   └── Firmware.ino/               # Main Arduino code for IDE (open this file)
 ├── Images/                         # Images of the robot
+├── Report/                         # Final Report, evaluation
 ├── Resources/                      # System diagram, PCB layout, production plan
 ├── TCS230_Frequency/               # Calibration code for Colour Sensor (TCS230)
-├── Testing/                        # Diagnostic journal, risk assessment
-└── Report/                         # Final Report, evaluation
+└── Testing/                        # Diagnostic journal, risk assessment
+
 ```
 
 ---
